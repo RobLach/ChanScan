@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/threadpreviewobject"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="top|fill_vertical">
+  <ImageView 
+  	android:id="@+id/threadImage"
+  	android:scaleType="centerCrop"
+  	android:minWidth="300dp"
+  	android:layout_width="fill_parent" 
+  	android:layout_height="170dp"
+  	android:paddingBottom="1dip" 
+  	android:src="@drawable/stub"
+  	android:maxHeight="170dp" 
+  	android:minHeight="170dp" 
+  	android:maxWidth="300dp"
+  	android:layout_alignTop="@id/threadpreviewobject"/>
+  	<TextView
+  	android:id="@+id/postcount"
+  	android:textColor="#FFF"
+  	android:text="test test test"
+  	android:textColorHighlight="#000"
+  	android:background="#000"
+  	android:layout_width="wrap_content"
+  	android:textSize="12sp"
+  	android:layout_height="wrap_content"
+  	android:layout_alignBottom="@+id/threadImage"
+  	android:layout_alignParentLeft="true"
+  	android:layout_marginLeft="15dp"
+  	android:paddingLeft="3dp"
+  	android:paddingRight="3dp"
+  	android:visibility="invisible"
+  	/>
+  <RelativeLayout
+  	android:id="@+id/textLay"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent" 
+  	android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="top"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_below="@id/threadImage"
+    >
+        <TextView 
+    android:id="@+id/threadTitle"
+    android:layout_width="fill_parent"
+    android:textColor="?android:attr/textColorPrimaryDisableOnly"
+  	android:textSize="12sp"
+  	android:layout_height="wrap_content"
+  	android:maxHeight="16sp"
+  	android:gravity="center" 
+  	android:layout_below="@id/textLay"
+    />
+    
+       <TextView 
+  	android:id="@+id/threadAuthor"
+  	android:layout_width="fill_parent"
+  	android:textColor="?android:attr/textColorPrimaryDisableOnly"
+  	android:textSize="12sp"
+  	android:maxHeight="15sp"
+  	android:layout_height="15sp"
+    android:layout_weight="1"
+    android:gravity="right" 
+    android:layout_below="@id/threadTitle"
+    
+  />
+
+  <TextView 
+  	android:id="@+id/threadText"
+  	android:layout_width="fill_parent"
+  	android:textColor="?android:attr/textColorPrimaryDisableOnly"
+  	android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:maxLines="7"
+    android:scrollbars="none"
+    android:textSize="10sp"
+    android:autoLink="all"
+    android:gravity="top|fill_vertical"
+    android:lineSpacingMultiplier="0.85"
+    android:layout_below="@id/threadAuthor"
+  />
+  </RelativeLayout>  
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="hexdojo/android/chanscan/" kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="lib" path="libs/revmob-6.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/tagsoup/tagsoup-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/commons-lang-2.5-bin/commons-lang-2.5/commons-lang-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/htmlcleaner2_1-bin/htmlcleaner2_1-all/htmlcleaner2_1.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/httpcomponents-client-4.0.3-bin-with-dependencies/httpcomponents-client-4.0.3/lib/httpmime-4.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/httpcomponents-client-4.0.3-bin-with-dependencies/httpcomponents-client-4.0.3/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="./ChanScan/Android/jericho-html-3.3/jericho-html-3.3/dist/jericho-html-3.3.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

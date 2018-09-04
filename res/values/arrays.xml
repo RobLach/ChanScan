@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="gifViewerTypeKey">
+<item>ChanScan GIF Viewer</item>
+<item>Web GIF Viewer</item>
+<item>Do Not Use GIF Viewer</item>
+</string-array>
+<string-array name="gifViewerTypeValue">
+<item>defaultGif</item>
+<item>webGif</item>
+<item>noGif</item>
+</string-array>
+</resources>

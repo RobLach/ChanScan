@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SiteList>
+	<Site Name="4chan" URL="http://www.4chan.org/" Icon="http://media.photobucket.com/image/4chan%20icon/dorkerlord/4chanbadge.png">
+		<Board Name="Anime &amp; Manga" short="a" URL="http://boards.4chan.org/a/"></Board>
+		<Board Name="Anime/Cute" URL="http://boards.4chan.org/c/" short="c"></Board>
+		<Board short="f" Name="Flash" URL="http://boards.4chan.org/f/"></Board>
+		<Board Name="Random" URL="http://boards.4chan.org/b/" short="b"></Board></Site>
+	<Site Icon="http://a0.twimg.com/profile_images/203693628/7logo_bigger.png" Name="7chan" URL="http://7chan.org/">
+		<Board Name="Video Games" URL="https://7chan.org/vg/" short="vg"></Board>
+		<Board Name="Media" short="me" URL="https://7chan.org/me/"></Board>
+		<Board Name="Minecraft" short="minecraft" URL="https://7chan.org/minecraft/"></Board></Site>
+</SiteList>

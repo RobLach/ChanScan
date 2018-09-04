@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="useLongNames">chanScanLongNames</string>
+    <string name="gifViewerType">chanScanGifViewerType</string>
+    <string name="autoRotate">chanScanAutoRotate</string>
+    <string name="clearCache">chanScanClearCache</string>
+    <string name="chanlistURL">chanScanChanList</string>
+    <string name="customrootforsave">chanScanCustomRoot</string>
+    <string name="defaultrootforsave">Image Boards</string>
+    <string name="showDisclaimer">chanScanShowDisclaimer</string>
+    
+    <string name="app_name">ChanScan Lite</string>
+
+	<string name="main_no_chans">No Sites Loaded</string>
+	<string name="app_name_thread">ChanScan - Thread</string>
+	<string name="app_name_image">ChanScan - Image</string>
+    <string name="menu_zoom">Zoom</string>
+    <string name="menu_pan">Pan</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_previous">Previous</string>
+    <string name="menu_next">Next</string>    
+    <string name="menu_dlimages">Download Images</string>
+    <string name="menu_dlimage">Download Image</string>
+    <string name="menu_gallery">Open Image Gallery</string>
+    <string name="menu_reply">Post Reply</string>
+    <string name="menu_newthread">Create Thread</string>
+    <string name="form_name">Name</string>
+    <string name="form_mail">E-Mail</string>
+    <string name="form_subject">Subject</string>
+    <string name="form_comment">Comment</string>
+    <string name="form_captcha">Captcha</string>
+    <string name="form_edit"></string>
+    <string name="forme_pw">Password</string>
+    <string name="current_directory">.</string>
+    <string name="empty"></string>
+    <string name="defaultBoardUrl">http://www.hexdojo.com/apps/chanscan/DefaultSiteList.xml</string>
+    <string name="disclaimer">The developers of this application are not responsible for the content loaded by the application. All of the content is loaded from external sources which are outside of our control. This application is to be treated as a very specialized web browser, so tread carefully.</string>
+    
+    
+    <string name="check_license">Check license</string>
+	<string name="checking_license">Checking license...</string>
+	<string name="dont_allow">Don\'t allow the user access</string>
+	<string name="allow">Allow the user access</string>
+	<string name="application_error">Application error: %1$s</string>
+	<!-- Unlicensed dialog messages -->
+	<string name="unlicensed_dialog_title">Application not licensed</string>
+	<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+	<string name="buy_button">Buy app</string>
+	<string name="quit_button">Exit</string>
+	
+	<string name="menu_new_folder">New Folder</string>
+    <string name="dirnameinput_cmd_return">Save</string>
+    <string name="dirnameinput_hint">Enter a directory-name:</string>
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>
+    
+</resources>

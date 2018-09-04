@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="3sp">
+  
+<TextView android:text="Custom Subfolder (optional)" android:id="@+id/imageflformtext" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+<EditText android:text="@string/empty" android:id="@+id/imageDlFormEditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1"></EditText>
+</LinearLayout>

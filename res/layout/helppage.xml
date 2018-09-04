@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="6dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Favorites" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#ff106510"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" />
+       <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="6dip"
+       android:paddingRight="6dip"
+       android:paddingTop="6dip"
+       android:text="To add a board to the imageboard's favorite list, long press on the sub-board name on the thread selection screen to open the favorites list menu where you can add or remove the board.\n\nYou can load the favorites list for the board from the options menu on the thread selection screen.\n\nTo open a board favorite list directly from the first screen, long press on the imageboard name." />
+       <TextView
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="6dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Animated GIFs" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#ff106510"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" />
+       <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="6dip"
+       android:paddingRight="6dip"
+       android:paddingTop="6dip"
+       android:text="There are 3 ways of handling animated gifs. You can choose which way in the settings.\n\nChanScan Gif Viewer: This is a custom animated Gif viewer developed by HexDojo. It will work on any device compatible with ChanScan. It does a large amount of processing to help deal with older devices which have difficulties with GIFs.\n\nChanScan Web Gif Viewer: If your device can playback GIFs in the Android browser, you can use the web GIF viewer. It should be faster than the non-web version.\n\nRegular Image Viewer: This option opens up GIFs in the normal Image Viewer. GIFs will not be animated." />
+                <TextView
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="6dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Image Viewer" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#ff106510"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" />
+       <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="6dip"
+       android:paddingRight="6dip"
+       android:paddingTop="6dip"
+       android:text="Long Press and hold for zoom." />
+       
+       
+       <TextView
+        android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"
+            android:paddingTop="6dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Known Issues" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#ff106510"
+            android:layout_marginLeft="6dip"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="12dip" />
+       <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="6dip"
+       android:paddingRight="6dip"
+       android:paddingTop="6dip"
+       android:text="1: Be aware that your IP is shared with other users in you area. That means if someone got banned while using their mobile phone, it might have banned you as well. This would stop you from loading the imageboard.\n\n" />
+  
+  
+   </LinearLayout>
+  
+</ScrollView>

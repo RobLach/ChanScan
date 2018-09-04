@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/hexdojo.android.chanscanfree"
+	xmlns:mm="http://millennialmedia.com/android/schema"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/bam"> 
+<!-- 	<com.adserver.adview.AdServerView-->
+<!-- 	android:id="@+id/adViewBack" -->
+<!--	    android:layout_width="fill_parent" -->
+<!--	    android:layout_height="53dip"-->
+<!--	    android:layout_alignParentTop="true"-->
+<!--		site="11776" -->
+<!--		zone="25054"-->
+<!--		paramBG="black"-->
+<!--		android:background="#000000"-->
+<!--	    adReloadPeriod="20000"-->
+<!--	    android:layout_alignTop="@id/bam"-->
+<!--	   	/>-->
+
+<!--
+<com.millennialmedia.android.MMAdView
+      android:id="@+id/mmadviewback" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      mm:apid="36358"
+      mm:adType="MMBannerAdTop"
+      mm:refreshInterval="20"
+      mm:accelerate="true"
+      mm:ignoreDensityScaling="false"
+      mm:age="21"
+      mm:gender="male"
+      mm:income="85000"
+      mm:keywords="lonely,depression,hacking,drugs,computers,games,dating"
+      mm:ethnicity="white"
+      mm:orientation="straight"
+      mm:marital="single"
+      mm:children="false"
+      mm:education="college"
+      mm:politics="libertarian"
+	/> 
+-->
+
+<LinearLayout android:id="@+id/boardselectorbanner"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+	</LinearLayout>	
+	<Gallery 
+		android:id="@+id/boardselectsgallery"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/boardselectorbanner"
+		android:spacing="30sp" 
+		android:scrollbars="horizontal"
+		android:fadingEdge="horizontal" 
+		android:scrollbarFadeDuration="0"
+		android:unselectedAlpha="0.3" />
+
+<!--	<LinearLayout-->
+<!--	android:id="@+id/boardselectLinerLayout"-->
+<!--	android:layout_width="fill_parent" -->
+<!--	android:layout_height="wrap_content"-->
+<!--	android:orientation="vertical" />	-->
+	<TextView 
+		android:id="@+id/boardselecttext"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:maxLines="1"
+		android:textSize="16.5sp"
+		android:gravity="center_vertical|center_horizontal" 
+		android:text="@string/main_no_chans"
+		android:layout_below="@id/boardselectsgallery"/>
+	<Gallery 
+		android:id="@+id/threadselection"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:spacing="5sp" 
+		android:gravity="top"
+		android:scrollbars="horizontal"
+		android:fadingEdge="horizontal"
+		android:scrollbarFadeDuration="50" 
+		android:unselectedAlpha="0.3"
+		android:clipToPadding="false"
+		android:layout_gravity="top"
+		android:layout_below="@id/boardselecttext"/>
+	<Gallery
+		android:id="@+id/pageselection"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:minHeight="35sp"
+		android:spacing="30sp"
+		android:gravity="bottom" 
+		android:scrollbars="horizontal"
+		android:fadingEdge="horizontal"
+		android:scrollbarFadeDuration="0"
+		android:unselectedAlpha="0.3"
+		android:visibility="invisible"
+		android:layout_alignParentBottom="true"
+		/>
+
+</RelativeLayout>

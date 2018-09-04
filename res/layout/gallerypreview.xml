@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/hexdojo.android.chanscanfree"
+  xmlns:mm="http://millennialmedia.com/android/schema"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+	 <LinearLayout android:id="@+id/gallerypreviewbanner"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+	</LinearLayout>
+  <Gallery 
+  	android:id="@+id/threadpreviewgallery" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="120dp"
+  	android:spacing="0sp"
+  	android:scrollbars="horizontal"
+	android:fadingEdge="horizontal"
+	android:gravity="top"
+	android:clipChildren="true"
+	/>
+
+  <ImageView 
+  	android:id="@+id/threadpreviewimage"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:scaleType="centerInside"
+  	android:adjustViewBounds="true"
+  	android:src="@drawable/loadingfull"
+  />
+</LinearLayout>

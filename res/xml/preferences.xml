@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="General">
+		<EditTextPreference android:defaultValue="@string/defaultBoardUrl" android:title="Image Board List XML" android:shouldDisableView="false" android:key="@string/chanlistURL" android:persistent="true" android:dialogMessage="If this is set improperly the application will be unusable." android:enabled="false" android:summary="Disabled in free version."/>
+		<CheckBoxPreference android:title="Clear Cache on Quit" android:summary="Images are automatically cached when viewing a board. If you want to automatically clear the cache when the program exits enable this." android:enabled="true" android:key="@string/clearCache" android:persistent="true" android:defaultValue="true"></CheckBoxPreference>
+		<CheckBoxPreference android:key="@string/showDisclaimer" android:defaultValue="true" android:persistent="true" android:enabled="true" android:title="Show Disclaimer" android:summary="A disclaimer explaining that we are not responsible for the content is shown by default when the application is opened."></CheckBoxPreference>
+		<CheckBoxPreference android:key="@string/useLongNames" android:enabled="true" android:title="Use Long Names" android:persistent="true" android:summary='Use the full name (i.e "Advice") instead of short names ("adv") with the board selector.' android:defaultValue="false"></CheckBoxPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Image Downloader">
+		<EditTextPreference android:title="Root Folder" android:defaultValue="@string/defaultrootforsave" android:key="@string/customrootforsave" android:summary='Images are saved using the following path: Root/Image Board Name/Sub-board Name/Optional Tag. Click this to change the root folder name. Default is "Image Boards"' android:persistent="true" android:enabled="true"></EditTextPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Image Viewer">
+		<CheckBoxPreference android:summary="Images loaded in the full Image View could be automatically rotated to better fit a landscape orientation if they are wider than taller. Enable to do auto-rotation." android:enabled="true" android:key="@string/autoRotate" android:persistent="true" android:title="Auto-rotate Images" android:defaultValue="false"></CheckBoxPreference>
+		<ListPreference android:title="Gif Viewer" android:enabled="true" android:summary="Use the web version if GIFs load correctly in the Android browser." android:key="@string/gifViewerType" android:entries="@array/gifViewerTypeKey" android:entryValues="@array/gifViewerTypeValue" android:persistent="true" android:defaultValue="defaultGif"></ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

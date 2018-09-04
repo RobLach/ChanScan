@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res/hexdojo.android.chanscanfree"
+xmlns:mm="http://millennialmedia.com/android/schema"
+	android:id="@+id/frontpageLinearLayout"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+ 
+ <LinearLayout android:id="@+id/frontpagebanner"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+</LinearLayout>
+ 
+<ListView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/frontpagebanner"
+    android:smoothScrollbar="false" 
+    android:hapticFeedbackEnabled="true" 
+    android:id="@android:id/list" />
+
+<TextView
+    android:id="@+id/listviewrow"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="@string/main_no_chans" 
+    android:visibility="invisible"/> 
+
+
+</RelativeLayout>
