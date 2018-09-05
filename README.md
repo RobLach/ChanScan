@@ -21,4 +21,4 @@ The primary technical approach was to santize html into valid XML and parse it u
 
 Furthermore, to deal with Android's limited Animated GIF rendering capacity, a proprietary renderer was created; a method of capturing and re-injecting Captcha challenges also had to be implemented to allow for posting; and the app also have the ability to load the list of accesible boards from an externally linked XML file which allowed for users to add their favorite boards by simply modifying and hosting the list on their own.
 
-For More Information visit [Rob Lach's site](roblach.com/#chanscan).
+For More Information visit [Rob Lach's site](https://roblach.com/#chanscan).
